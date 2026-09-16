@@ -1,1 +1,5 @@
-
+CREATE TABLE IF NOT EXISTS filas (
+    id BIGSERIAL PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL UNIQUE,
+    descricao VARCHAR(255)
+);
